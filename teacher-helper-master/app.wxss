@@ -1,0 +1,268 @@
+/**app.wxss**/
+
+@font-face {  
+    /* font-properties */  
+    font-family: pictos;  
+    src:url('https://fp.yangcong345.com/FZLanTYJW_Zhun.ttf'),    
+    url('https://fp.yangcong345.com/FZLanTYJW_Zhun.ttff')
+}  
+
+@import "zanui/index.wxss";
+
+page {
+  font-family: 'SimHei'; 
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  /*padding: 200rpx 0;*/
+  box-sizing: border-box;
+} 
+.back-btn {
+  width: 100%
+}
+
+.zan-btn--primary {
+  background-color: #1E90FF;
+  border-color: #1E90FF;
+  border-radius:5px;
+  margin-bottom:20px;
+}
+
+.zan-btn--obvious {
+  background-color: brown;
+  color:#fff;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.zan-btn-block {
+  position: relative;
+  margin: 0 15px 10px 15px;
+  color: #888;
+  background-color: #fff;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
+  border: 1rpx solid #f0f0f0;
+  font-size: 18px;
+  line-height: 60px;
+  height: 60px;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  clear:both;
+}
+
+.zan-class-block {
+  position: relative;
+  margin: 0 15px 10px 15px;
+  color: #444;
+  background-color: #fff;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 2px;
+  border: 1rpx solid #ccc;
+  font-size: 14px;
+  height: 80px;
+  box-sizing: border-box;
+  text-decoration: none;
+    clear:both;
+  vertical-align: middle;
+}
+
+.zan-class-info {
+  margin:15px 10px;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+}
+
+.zan-class-info p{
+  color:#b1b1b1;
+  display: inline-block;
+  margin-right:20px;
+}
+
+.zan-class-name {
+  font-size: 1.3em;
+  color: #000;
+  font-weight: bold;
+  margin-bottom:10px;
+}
+
+.zan-class-info-btn {
+  margin-right:0px;
+  margin-top:10px;
+  font-size:1.1em;
+  padding:5px auto;
+}
+
+.zan-class-right {
+  float:right;
+}
+
+.zan-desc {
+  font-size:14px;
+  padding: 12px 15px;
+  display: block;
+  width:65%;
+  float: left;
+  color:#888;
+  line-height:1.5
+}
+
+.zan-desc-btn {
+  width:25%;
+  float:right;
+  padding:20px 5px 0 0;
+  text-align: right;
+}
+
+.zan-card__detail {
+  margin-left: 10px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.zan-card__detail-row {
+  overflow: hidden;
+ /* line-height: 30px;*/
+  min-height: 30px;
+  margin:10px 0 3px 0;
+}
+.zan-card__left-col {
+  margin-top:30px;
+}
+
+.zan-card_title {
+  font-size:1.5em;
+  margin-right:0px;
+  line-height:25px;
+  color:#1E90FF;
+  max-height:50px;
+}
+ 
+.zan-card_content {
+  color:#fff;
+}
+
+.zan-panel-title {
+  font-size: 20px;
+  padding: 0px 15px 0 15px;
+  margin:10px 0;
+  color:#888;
+  font-weight:bold;
+}
+ 
+.up-fixed {
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 999999;
+    margin-top:0;
+    background-color:antiquewhite;
+    color:brown;
+    height:57px;
+}
+
+.dialog-content {
+    margin: 10px auto; 
+    font-size:16px;
+    width:75%;
+}
+
+.dialog-image {
+  margin:25px 25px 0 25px;
+  text-align: center;
+}
+
+.main-content {
+  margin:0px 30px 15px 30px;
+  padding-top: 40px;
+  color:#fff;
+}
+
+.step-content {
+  margin:10px 45px;
+  padding-top: 0px;
+  color:#fff;
+  font-size:0.8em;
+}
+
+.status-title {
+  float: left;
+  width:30%;
+  margin:10px 15px;
+  color:#444;
+
+}
+
+.status-content {
+  float: left;
+  width:60%;
+  font-size:16px;
+  color:brown;
+  text-align: right;
+  margin-top: 12px;
+  margin-right:5px;
+  line-height:1.1em;
+}
+
+.zan-cell__ft {
+    color:#888;
+}
+
+.data-title {
+  font-size:16px;
+
+}
+
+.push-code-container {
+  background-color: #1E90FF;
+  padding-bottom:10px;
+  margin-bottom: 20px;
+  background-image: url('http://7sbkoa.com2.z0.glb.qiniucdn.com/color-bg.png');
+  background-size:100% auto;  
+}
+
+.zan-card__side {
+  text-align: left;
+  width:50%;
+  float:left;
+}
+
+.zan-panel {
+  margin-top:0;
+}
+
+
+.doc-title {
+  margin:50px auto;
+  color:#1E90FF;
+  text-align: center;
+  font-size:1.1em;
+}
+
+.zan-form {
+  border:0;
+  margin: auto 15px;
+}
+
+.zan-form__input {
+  height:40px;
+  line-height:40px;
+  border:1px solid #b1b1b1;
+  font-size:16px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin:20px auto;
+  color:#888;
+  border-radius: 5px;
+}
+
+

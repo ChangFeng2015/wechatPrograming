@@ -1,0 +1,12 @@
+<view style="">
+
+  <view class="doc-title" style="">选择登录方式</view>
+    <button class="zan-btn-block" bindtap="bindOnionTap">
+      我已有洋葱账号
+    </button>
+
+    <button class="zan-btn-block"  bindtap="bindAuthTap">
+      用微信注册新的账号
+    </button>
+
+</view>

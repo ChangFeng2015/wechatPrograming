@@ -1,0 +1,44 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/intro/intro",
+    "pages/statics/statics",
+    "pages/statics_self/statics_self",
+    "pages/statics_intro/statics_intro",
+    "pages/logs/logs",
+    "pages/login/login",
+    "pages/bind/bind",
+    "pages/invitation/invitation",
+    "pages/addStudent/addStudent",
+    "pages/video/video"   
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "洋葱数学教师助手",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [{
+      "color":"#444",
+      "selectedColor": "#1E90FF",
+      "pagePath": "pages/index/index",
+      "iconPath": "images/21.png",
+      "selectedIconPath": "images/22.png",
+      "text": "教学功能"
+      
+    }, {
+      "color":"#444",
+      "selectedColor": "#1E90FF",
+      "pagePath": "pages/invitation/invitation",
+      "iconPath": "images/11.png",
+      "selectedIconPath": "images/12.png",
+      "text": "邀请有奖"
+    }]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

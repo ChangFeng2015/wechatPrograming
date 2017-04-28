@@ -1,0 +1,7 @@
+<view class="">
+    <image style="width:100%;background-color: #fff;"  mode="widthFix" src="../../images/invite.png"></image>
+
+     <view class="zan-btns" >
+      <button class="zan-btn zan-btn--primary" bindtap="bindGoStaticsTap">通知学生加入</button>
+    </view>
+</view>
